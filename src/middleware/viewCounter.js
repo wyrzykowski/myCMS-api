@@ -49,12 +49,8 @@ const viewCounter = async (req, res, next) => {
             },
             e => {
                 console.log("can't find statistics collection!")
-
             }
         );
-
-
-
 
     next();
 }

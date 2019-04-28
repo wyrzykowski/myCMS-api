@@ -17,7 +17,6 @@ router.post(`/${appName}/subpage`,auth,(req,res)=>{
 
     subpage.save().then(
         doc=>{
-            console.log("SUBAGAE");
             res.send(doc);
         },
         e=>{
