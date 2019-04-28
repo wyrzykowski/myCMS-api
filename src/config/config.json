@@ -8,6 +8,7 @@
   "development": {
     "PORT": 3001,
     "MONGODB_URI": "mongodb://localhost:27017/fakfajzerApi",
+    "MONGODB_URI_DEV": "mongodb://localhost:27017/fakfajzerApi",
     "APP_NAME": "fakfajzer",
     "JWT_SECRET": "token12b8a7s63hz7dfj3"
   }
