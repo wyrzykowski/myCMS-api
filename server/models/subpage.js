@@ -6,20 +6,20 @@ var Subpage = mongoose.model("Subpage",{
     page: {
         type: String,
         required: true,
-        minlength:1,
-        trim:true, //white space is not counting to be sign
-        unique:true
+        minlength: 1,
+        trim: true, //white space is not counting to be sign
+        unique: true
     },
-    block:{ //block of contents Array
+    block: { //block of contents Array
         type: Object,
-        required:true
+        required: true
     },
-    background:{
+    background: {
         type: Object,
-        default:false,
+        default: false,
         required: false,
     }
 })
 
-module.exports = { Subpage };
+module.exports = {Subpage};
 

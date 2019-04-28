@@ -2,11 +2,13 @@
   "test": {
     "PORT": 3000,
     "MONGODB_URI": "mongodb://localhost:27017/fakfajzerApiTest",
-    "JWT_SECRET": "cdsd64uu28376fhahcbgf40od3kcnd33bs3hwu32o287dhs3sjf3c8c7d9ds6sdf8f7d8"
+    "JWT_SECRET": "cdsd64uu28376fhahcbgf40od3kcnd33bs3hwu32o287dhs3sjf3c8c7d9ds6sdf8f7d8",
+    "APP_NAME": "fakfajzer"
   },
   "development": {
     "PORT": 3001,
     "MONGODB_URI": "mongodb://localhost:27017/fakfajzerApi",
-    "JWT_SECRET": "sd8sd78hgds56sd4f78hdf67dfd66f7f65fd78df877afa7f87f8f"
+    "JWT_SECRET": "sd8sd78hgds56sd4f78hdf67dfd66f7f65fd78df877afa7f87f8f",
+    "APP_NAME": "fakfajzer"
   }
 }
